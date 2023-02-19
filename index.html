@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <section class="container">
             <div class="sidebar">
-                <img id = "logo" src = "./images/sabanalogo.png">
+                <img id = "logo" src = "sabanalogo.png">
                 <figcaption class="fig">Logo Universidad de La Sabana. Tomado de: https://es.wikipedia.org/wiki/Universidad_de_La_Sabana</figcaption><br>           
                 <ul>
                     <li><a class="1" href="#">Inicio</a></li>
@@ -31,7 +31,7 @@
                     <h2>Universidad de La Sabana</h2>
                 </div>
                 <div id="image">
-                    <img id = "imagen" src = "./images/sabanalogo.png"> 
+                    <img id = "imagen" src = "sabanalogo.png"> 
                 </div>    
                 <div id="texto">
                     <h2>Programación de Nuevas Tecnologías</h2>
@@ -50,43 +50,43 @@
             //Mostrar Inicio
             $('.1').on('click', function() {
                 document.getElementById("titulo").innerHTML="<h2>Universidad de La Sabana</h2>";
-                imagen.src="./images/sabanalogo.png";
+                imagen.src="sabanalogo.png";
                 document.getElementById("texto").innerHTML="<h2>Programación de Nuevas Tecnologías</h2> <h2>Juan Pablo Franco Rubio</h2> <h2>Carlos Andrés Zuluaga Mora</h2>";
             });
             //Mostrar Jardín
             $('.2').on('click', function() {
                 document.getElementById("titulo").innerHTML="<h2>Jardín</h2>";
-                imagen.src="./images/bebe.jpg";
+                imagen.src="bebe.jpg";
                 document.getElementById("texto").innerHTML ="<p>Según fuentes confiables, porque quien escribe estas palabras no lo es, me escolaricé a los 3 años. Empecé en un jardín infantil de Bogotá, donde duré 2 años e hice Párvulos y PreKinder. Kinder se dió en un colegio cercano a la vía Chia-Cota y Transición fue el primero de los 8 años que hice en mi tercera institución.</p>";
             });
             //Mostrar Primaria
             $('.3').on('click', function() {
                 document.getElementById("titulo").innerHTML="<h2>Primaria</h2>";
-                imagen.src="./images/primaria.jpg";
+                imagen.src="primaria.jpg";
                 document.getElementById("texto").innerHTML ="<p>Inició en el año 2011, cuando recién había cumplido 6 años. Esta etapa, en su totalidad, se dió en un colegio de Chía ubicado en las inmediaciones de la Parroquia de la Sagrada Familia, por la carrera novena. No tengo recuerdos muy nítidos de aquellos años, mi vaga memoria dice que ya había identificado un gusto por la matemática y que podía tomar el estudio como un agente desestresante.</p>";
             });
             //Mostrar Bachillerato
             $('.4').on('click', function() {
                 document.getElementById("titulo").innerHTML="<h2>Bachillerato</h2>";
-                imagen.src="./images/bachillerato.jpg";
+                imagen.src="bachillerato.jpg";
                 document.getElementById("texto").innerHTML ="<p>Los dos primeros años de mi etapa como bachiller en formación, grados sexto y séptimo, fueron mis últimos estudiando en Chía, donde viví desde 2007 hasta 2017. De 2018 a 2020, radiqué en Zipaquirá junto a mi mamá, donde compramos un apartamento en el que a día de hoy vivimos. La pandemia, mi mamá y su ocupación me hicieron mudarme a la casa de mi tía, en Chía, hasta que la situación mejorara. No volví con mi mamá antes de tener el diploma de Bachiller bilingüe, a finales de 2021.</p>";
             });
             //Mostrar Pregrado
             $('.5').on('click', function() {
                 document.getElementById("titulo").innerHTML="<h2>Pregrado</h2>";
-                imagen.src="./images/pregrado.jpg";
+                imagen.src="pregrado.jpg";
                 document.getElementById("texto").innerHTML ="<p>Decidí qué iba a estudiar a penas 3 meses antes de salir del colegio. Curiosamente, no fue una decisión muy concienzuda, pero eso no significa que me arrepienta de ella. En un año de Universidad aprendí más que en 2 de colegio virtual, posiblemente porque no soy precisamente amigo de la virtualidad absoluta.</p>";
             });
             //Mostrar Maestría y Doctorado
             $('.6').on('click', function() {
                 document.getElementById("titulo").innerHTML="<h2>Maestría y Doctorado</h2>";
-                imagen.src="./images/emo.jpg";
+                imagen.src="emo.jpg";
                 document.getElementById("texto").innerHTML ="<p>Me parece un poco precipitado hablar al respecto cuando no estoy cerca de terminar mi pregrado y cuando aún no he explorado esta carrera lo suficiente como para poder tomar una decisión. Por lo pronto, no he identificado mi rama favorita de la Ingeniería Informática o una en la que sea realmente bueno. Supongo que uno encuentra su lugar de la forma más inesperada posible, así que no me apuro en encontrar el mío.</p>";
             });
             //Mostrar Luz al Final del Camino
             $('.7').on('click', function() {
                 document.getElementById("titulo").innerHTML="<h2>Luz al Final del Camino</h2>";
-                imagen.src="./images/emo.jpg";
+                imagen.src="emo.jpg";
                 document.getElementById("texto").innerHTML ="<p>No tengo un objetivo específico en cuanto a lo material. Para mí, la satisfacción y felicidad de aquellos que son importantes para uno es la forma de alcanzar la felicidad propia; en mi caso, mi familia es el origen y razón de mis esfuerzos y a quienes quiero dar todo aquello que esté en mis manos. No pretendo ser alguien extraordinario, puede que no llegue a destacar en mi trabajo tanto como quiero hacerlo, pero con ver a mi familia feliz antes de partir y cuando ya no esté, creo que habré tenido éxito y logros en la vida.</p>";
             });
         </script>
